@@ -2,12 +2,11 @@
 import asyncio
 import logging
 
-import voluptuous as vol
-
-from homeassistant.core import HomeAssistant
 import homeassistant.helpers.config_validation as cv
+import voluptuous as vol
+from homeassistant.core import HomeAssistant
 
-from .const import DOMAIN, DEFAULT_DELAY, DEFAULT_STEP
+from .const import DEFAULT_DELAY, DEFAULT_STEP, DOMAIN
 
 _SCENE_SCHEMA = vol.Schema(
     {

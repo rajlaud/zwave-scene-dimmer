@@ -24,7 +24,7 @@ to run the next step after the previous update completes if the button is still
 being depressed. The default `step` is 12 and `delay` is 0.1.
 
 ```yaml
-zwave_scene_dimmer: # example configuation.yaml entry
+zwave_scene_dimmer: # example configuration.yaml entry
   zwave.reading_light_switch: # name of zwave device to monitor
     light_id: light.reading # name of light to control
     bright:
